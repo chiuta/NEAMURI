@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = ["crates/neamuri-core", "crates/neamuri-cli"]
+
+[workspace.package]
+version = "0.1.0-alpha.1"
+edition = "2024"
+rust-version = "1.88"
+license = "MIT"
+authors = ["Alexio"]
+repository = "https://github.com/chiuta/NEAMURI"
+
+[workspace.dependencies]
+neamuri-core = { path = "crates/neamuri-core", version = "0.1.0-alpha.1" }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 4
+strip = true

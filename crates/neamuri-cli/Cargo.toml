@@ -1,0 +1,16 @@
+[package]
+name = "neamuri-cli"
+description = "Command-line tool for NEAMURI"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "neamuri"
+path = "src/main.rs"
+
+[dependencies]
+neamuri-core = { workspace = true }

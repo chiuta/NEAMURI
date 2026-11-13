@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use NEAMURI in your work, please cite it as below."
+title: "NEAMURI"
+abstract: "Kinship engine: from a family-tree path to the right relative term, in many languages; works on top of GEDCOM parsers."
+type: software
+authors:
+  - family-names: "Chiuță"
+    given-names: "Alexandru-Ionuț"
+    alias: "Alexio"
+repository-code: "https://github.com/chiuta/NEAMURI"
+url: "https://neamuri.chiuta.ro"
+license: MIT
+version: "0.1.0-alpha.1"
+date-released: 2026-11-13
