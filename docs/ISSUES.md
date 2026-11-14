@@ -1,5 +1,7 @@
 # NEAMURI — first ten tasks
 
+**English** · [Română](ISSUES.ro.md) · [Français](ISSUES.fr.md) · [Italiano](ISSUES.it.md) · [Español](ISSUES.es.md) · [Português](ISSUES.pt.md) · [Deutsch](ISSUES.de.md) · [Magyar](ISSUES.hu.md)
+
 Create them on GitHub with `scripts/create-issues.sh OWNER/REPO`. Comment on an issue to claim it.
 
 1. **Path grammar and canonical form (half-sibling, step-relatives, adoption, remarriage)** — `good first issue`, `docs`, `area:model`
