@@ -2,13 +2,23 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Version: 0.1.0-alpha.1 · Last updated: 13.11.2026
+Version: 0.1.0-alpha.1 · Last updated: 2026-11-14
 
 🌐 https://neamuri.chiuta.ro
 
 ## Status
 
 Early skeleton (pre-alpha): the workspace builds and the tests pass in CI. Every planned feature is an open task in `docs/issues/`.
+
+## Planned scope
+
+- A path grammar with a canonical form (half-sibling, step-relatives, adoption, remarriage) and kin terms for cousins of any degree and removal.
+- Term tables for Romanian, English, French, Italian, Spanish, Portuguese, German and Hungarian, stored as data files (`data/<lang>.toml`) with a validator.
+- A design note for languages where age or side matters (Hungarian báty/öcs, Chinese paternal/maternal).
+- Integration with `ged_io`: the relationship between two individual ids from a GEDCOM file.
+- A CLI (`neamuri relate FILE.ged ID1 ID2 --lang ro`) and a WebAssembly demo page for the Arbore app.
+
+None of this is implemented yet: each item is an open task in `docs/issues/`.
 
 ## Build and test
 

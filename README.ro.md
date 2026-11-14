@@ -2,13 +2,23 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Versiune: 0.1.0-alpha.1 · Ultima actualizare: 13.11.2026
+Versiune: 0.1.0-alpha.1 · Ultima actualizare: 2026-11-14
 
 🌐 https://neamuri.chiuta.ro
 
 ## Stare
 
 Schelet timpuriu (pre-alfa): workspace-ul se compilează, iar testele trec în CI. Fiecare funcție planificată este o sarcină deschisă în `docs/issues/`.
+
+## Domeniu planificat
+
+- O gramatică a traseelor cu formă canonică (frate vitreg, rude prin alianță, adopție, recăsătorire) și termeni de rudenie pentru veri de orice grad și îndepărtare.
+- Tabele de termeni pentru română, engleză, franceză, italiană, spaniolă, portugheză, germană și maghiară, păstrate ca fișiere de date (`data/<lang>.toml`) cu validator.
+- O notă de proiectare pentru limbile în care contează vârsta sau linia (maghiară báty/öcs, chineză paternă/maternă).
+- Integrare cu `ged_io`: relația dintre doi indivizi după id, dintr-un fișier GEDCOM.
+- Un CLI (`neamuri relate FILE.ged ID1 ID2 --lang ro`) și o pagină demo WebAssembly pentru aplicația Arbore.
+
+Nimic din asta nu este implementat încă: fiecare punct este o sarcină deschisă în `docs/issues/`.
 
 ## Compilare și testare
 

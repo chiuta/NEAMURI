@@ -2,13 +2,23 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Version : 0.1.0-alpha.1 · Dernière mise à jour : 13.11.2026
+Version : 0.1.0-alpha.1 · Dernière mise à jour : 2026-11-14
 
 🌐 https://neamuri.chiuta.ro
 
 ## État
 
 Squelette précoce (pré-alpha) : le workspace compile et les tests passent en CI. Chaque fonctionnalité prévue est une tâche ouverte dans `docs/issues/`.
+
+## Périmètre prévu
+
+- Une grammaire de chemins avec forme canonique (demi-frère ou demi-sœur, parents par alliance, adoption, remariage) et des termes de parenté pour les cousins de tout degré et de toute distance.
+- Tables de termes pour le roumain, l’anglais, le français, l’italien, l’espagnol, le portugais, l’allemand et le hongrois, stockées en fichiers de données (`data/<lang>.toml`) avec validateur.
+- Une note de conception pour les langues où l’âge ou le côté compte (hongrois báty/öcs, chinois paternel/maternel).
+- Intégration avec `ged_io` : la relation entre deux identifiants d’individus d’un fichier GEDCOM.
+- Un CLI (`neamuri relate FILE.ged ID1 ID2 --lang ro`) et une page de démonstration WebAssembly pour l’application Arbore.
+
+Rien de tout cela n’est encore implémenté : chaque point est une tâche ouverte dans `docs/issues/`.
 
 ## Compiler et tester
 
